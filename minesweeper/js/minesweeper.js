@@ -138,6 +138,9 @@ $.ready(function() {
   $("#button_beginner").addEventListener("click", function() {
     minesweeper.new_game(9, 9, 10);
   });
+$("#button_normal").addEventListener("click", function() {
+    minesweeper.new_game(12,12, 20);
+  });
   $("#button_intermediate").addEventListener("click", function() {
     minesweeper.new_game(16, 16, 40);
   });
