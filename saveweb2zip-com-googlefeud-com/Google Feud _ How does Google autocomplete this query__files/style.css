@@ -1,0 +1,66 @@
+body {margin: 0px;}
+#container {
+	background-color: black;
+	border: 1px solid gray;
+	box-shadow: inset 0 0 0 1px gray;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+    width: 970px; height: 250px;
+	pointer-events: none;
+}
+
+#container * {
+	position: absolute;
+}
+
+#clickthru{
+	width: 100%;
+	height: 100%;
+	pointer-events: auto;
+}
+
+/*-------------- SPRITE -------------*/
+.sprite { background: url('sprite.png') no-repeat top left; width: 970px; height: 796px; background-size: 970px 796px;  } 
+.sprite.cta-text2 { background-position: 0 0; width: 74px; height: 13px; } 
+.sprite.logo2 { background-position: 0 -18px; width: 970px; height: 250px; } 
+.sprite.logo1 { background-position: 0 -273px; width: 970px; height: 250px; } 
+.sprite.t1-1 { background-position: 0 -528px; width: 970px; height: 250px; } 
+.sprite.cta-text1 { background-position: 0 -783px; width: 74px; height: 13px; } 
+
+/*--------- SPRITE POSITION ---------*/
+.cta-text1,.cta-text2 {top: 12px;left: 13px;}
+.cta-text2 {opacity:0; }
+
+/*-------- IMAGES | POSITION --------*/
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.bg{
+	width: 970px; height: 250px;
+}
+
+.cta{
+    background-color:#fff;
+    border-radius: 20px;
+    width: 98px;
+    height: 37px;
+    left: 26px;
+    top: 182px;
+}
+
+
+
+.mask{
+    width: 874px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    /* background-color:red; */
+}
