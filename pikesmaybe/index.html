@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Pikes.io | Unblocked smash hit io game by Clown Games</title>
+    <meta name="description" content="Play official Pikes.io now! Grow your pike, poke others and extend your weapon.  Can you have the biggest pike in the arena?">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://pikes.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pikes.io">
+    <meta property="og:description" content="Pikes.io is available on WEB, Google Play Store and App Store! Play now!">
+    <meta property="og:image" content="http://pikes.io/static/favicon.ico">
+    <!-- Facebook -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pikesiogame">
+    <meta name="twitter:creator" content="@pikesiogame">
+    <meta property="twitter:url" content="http://pikes.io/">
+    <meta property="twitter:title" content="Pikes.io">
+    <meta property="twitter:description" content="Pikes.io is available on WEB, Google Play Store and App Store! Play
+    now!">
+    <meta property="twitter:image" content="http://pikes.io/static/favicon.ico">
+    <!-- Twitter -->
+    <!-- SEO -->
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/mobile-popup.css">
+    <link rel="stylesheet" href="css/style_v3.7.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !(function(f, b, e, v, n, t, s) {
+            if (f.fbq) return
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) :
+                    n.queue.push(arguments)
+            }
+            if (!f._fbq) f._fbq = n
+            n.push = n
+            n.loaded = !0
+            n.version = '2.0'
+            n.queue = []
+            t = b.createElement(e)
+            t.async = !0
+            t.src = v
+            s = b.getElementsByTagName(e)[0]
+            s.parentNode.insertBefore(t, s)
+        })(
+            window,
+            document,
+            'script',
+            'https://connect.facebook.net/en_US/fbevents.js'
+        )
+        fbq('init', '319091655261276')
+        fbq('track', 'PageView')
+    </script>
+    <noscript>
+			<img
+				height="1"
+				width="1"
+				src="https://www.facebook.com/tr?id=319091655261276&ev=PageView
+   &noscript=1"
+			/>
+		</noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+    <div id="mobile-redirect-wrapper" class="whide">
+        <div id="mobile-redirect">
+            <div class="mobile-game-info">
+                <img class="mobile-game-logo" src="images/logo.png">
+                <p class="mobile-game-redirect-msg">
+                    Do you want to visit Google Play Store to install Pikes.io?
+                </p>
+            </div>
+            <div class="mobile-action-btns">
+                <a href="" id="mobile-redirect-link" class="mobile-redirect-btn" target="_blank">Of Course!</a>
+					<button id="mobile-close-redirect" class="mobile-redirect-btn">
+						No, thanks
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="ads-container" class="hide">
+			<p id="ad-text" style="position: absolute; top: 50%; left: 50%; color: #fefefe; transform: translate(-50%, -50%); font-size: 2rem;">
+				game is loading ...
+			</p>
+			<video id="contentElement" class="ads" muted=""></video>
+			<div id="adContainer" class="ads"></div>
+		</div>
+
+		<div id="revive-container" class="hide">
+			<p id="revive-text" style="position: absolute; top: 50%; left: 50%; color: #fefefe; transform: translate(-50%, -50%); font-size: 2rem;">
+				game is loading ...
+			</p>
+			<video id="reviveContentElement" class="ads" muted=""></video>
+			<div id="reviveContainer" class="ads"></div>
+		</div>
+
+		<div id="playwire-container" class="hide">
+			<p id="playwire-text" style="position: absolute; top: 50%; left: 50%; color: #fefefe; transform: translate(-50%, -50%); font-size: 2rem;">
+				game is loading ...
+			</p>
+			<div id="playwireContainer" class="ads"></div>
+		</div>
+
+		<div id="gameContainer"></div>
+		<div id="loading">
+			<div id="header-loading">
+				<h1 class="pikes-title">pikes.io</h1>
+				<h2>
+					Choose your knight, poke others and grow your pike. Longer
+					is better in this io game by Clown Games!
+				</h2>
+				<p>
+					Have the biggest stick in the arena! Stab other io games
+					players to lead the squad! Get in the arena and fight now.
+				</p>
+			</div>
+
+			<div class="character">
+				<img src="images/flame.png" alt="Flame animation Pikes.io">
+			</div>
+			<div id="progress-wrapper">
+				<div id="progress"><div id="bar">10%</div></div>
+				<div id="starting-game" class="hide">
+					<p>Starting the game...</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="header" id="header">
+			<h1 class="header-title">pikes.io</h1>
+			<h2>
+				Choose your knight, poke others and grow your pike. Longer is
+				better in this io game by Clown Games!
+			</h2>
+			<p>
+				Have the biggest stick in the arena! Stab other io games players
+				to lead the squad! Get in the arena and fight now.
+			</p>
+		</div>
+
+		<div id="game-content">
+			<!-- <a onmousedown="openCrossPromo(this,'mobg')">
+				<div class="cross-promo"></div>
+			</a> -->
+
+                <a onmousedown="openAppStorePage()" class="social-link" id="ios-link"><img src="images/appstorebadge.png" alt="Pikes.io App Store link"></a>
+                <a onmousedown="openPlayStorePage()" class="social-link" id="google-link"><img src="images/googleplaybadge.png" alt="Pikes.io Google Play store link"></a>
+                <a onmousedown="followUsTwitterClickHandler()" class="social-link" id="twitter-link"><img src="images/twitter.png" alt="Pikes.io Twitter link"></a>
+                <a onmousedown="beAFanClickHandler()" class="social-link" id="facebook-link"><img src="images/facebook.png" alt="Pikes.io Facebook link"></a>
+                <a onmousedown="openMoreIoGames()" id="iogames-link"><img src="images/more-games.png" alt="Play more IO games"></a>
+
+                <a onmousedown="followUsInstagramClickHandler()" class="social-link" id="instagram-link"><img src="images/instagram.png" alt="Pikes.io Instagram link"></a>
+                <a onmousedown="subscribeYoutubeClickHandler()" class="social-link" id="youtube-link"><img src="images/youtube.png" alt="Pikes.io Youtube link"></a>
+            </div>
+
+            <script>
+                ;
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    (i[r] =
+                        i[r] ||
+                        function() {;
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }),
+                    (i[r].l = 1 * new Date());
+                    (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+                    a.async = 1
+                    a.src = g
+                    m.parentNode.insertBefore(a, m)
+                })(
+                    window,
+                    document,
+                    'script',
+                    'https://www.google-analytics.com/analytics.js',
+                    'ga'
+                )
+
+                ga('create', 'UA-54103810-9', 'auto')
+                ga('send', 'pageview')
+            </script>
+
+
+            <script src="js/mobile.js"></script>
+            <script src="js/UnityProgress.js"></script>
+            <script src="js/UnityLoader.js"></script>
+            <script src="https://static.ultra-rv.com/rv-min.js"></script>
+            <script type="text/javascript" src="js/ima3.js"></script>
+            <script type="text/javascript" src="js/device-uuid.min.js"></script>
+            <script type="text/javascript" src="js/iron-src-1.1.js"></script>
+            <script type="text/javascript" src="js/ui_v3.9.js"></script>
+            <script type="text/javascript" src="js/ad-manager-2.1.js"></script>
+
+
+</body></html>

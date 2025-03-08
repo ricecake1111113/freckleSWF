@@ -1,0 +1,93 @@
+.whide {
+    display: none;
+}
+
+#mobile-redirect-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, .9);
+    font-family: Lato, sans-serif;
+}
+
+#mobile-redirect {
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fefefe;
+    transform: translate(-50%, -50%);
+    width: 19em;
+    height: 10em;
+    border-radius: .5em;
+}
+
+.mobile-action-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+}
+
+.mobile-redirect-btn {
+    font-size: 1em;
+    font-weight: 700;
+    width: 50%;
+    padding: 1em;
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+}
+
+#mobile-redirect-link {
+    background: #2ecc71;
+    border-bottom-left-radius: .5em;
+    text-decoration: none;
+    color: #fefefe;
+}
+
+#mobile-close-redirect {
+    background: #ecf0f1;
+    border-bottom-right-radius: .5em;
+    color: #383838;
+}
+
+.mobile-game-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 4em;
+    top: 0;
+    left: 0;
+    height: 7em;
+    width: 100%;
+    background-color: #fefefe;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.mobile-game-logo {
+    height: 5em;
+    border-radius: .3em;
+}
+
+.mobile-game-redirect-msg {
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+    color: #383838;
+    margin-left: 1em;
+    line-height: 1.3em;
+}
